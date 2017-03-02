@@ -1,0 +1,101 @@
+main{
+	position: relative;
+}
+*{
+	box-sizing: border-box
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: rgb(91,163,214);
+	box-sizing: border-box;
+	display: block;
+	margin: 0px auto;
+	font-size: 0px;
+}
+
+.left, .middle , .right{
+	display: inline-block;
+	vertical-align: top;
+}
+.left{
+	width: 33.3%;
+	display: inline-block;
+	padding: 30px;
+}
+.middle{
+	width:33.3%;
+	display: inline-block;
+	padding: 30px;
+}
+.right{
+	width: 33.3%;
+	display: inline-block;
+	padding: 30px;
+}
+input, textarea{
+	background-color: transparent;
+	border: 3px solid white;
+	width: 100%;
+	color:white;
+}
+textarea{
+	height: 160px;
+	padding-left: 5px 10px;
+	font-size: 14px;
+	color: white;
+}
+
+input{
+	height: 50px;
+	padding-left: 5px;
+	font-size: 14px;
+	color: white;
+
+}
+
+label{
+	padding: 0px;
+	color:white;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+select{
+	color:white;
+	border: 2px solid rgb(165,166,166);
+	width: 100%;
+	background-color: transparent;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+input:focus{
+	border: 2px solid grey;
+
+}
+
+textarea:focus{
+	border: 2px solid grey;
+}
+
+@media screen and (max-width: 990px) {
+  .left {
+    width: 100%;
+  }
+  .middle{
+  	width: 100%;
+  }
+  .right{
+  	width: 100%;
+  }
+}
+::-webkit-input-placeholder { 
+  color: #2a6a9a;
+
+
+
+
