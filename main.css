@@ -82,6 +82,8 @@ textarea:focus{
 	border: 2px solid grey;
 }
 
+/*Yo!*/
+
 @media screen and (max-width: 990px) {
   .left {
     width: 100%;
